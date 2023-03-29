@@ -1,5 +1,4 @@
 @echo off
-call C:/Users/simjo/anaconda3/Scripts/activate.bat 
-call conda activate OCR_japonais
-python "main.py"
+C:\Users\%USERNAME%\Pic2AnkiEnv\Scripts\activate
+python main.py
 pause
