@@ -6,4 +6,7 @@ Packages employed:
 - googletrans https://pypi.org/project/googletrans/
 - Jamdict     https://github.com/neocl/jamdict
 
+How to Use?
+
+
 Required Python 3.8 for Nagisa
