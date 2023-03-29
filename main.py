@@ -29,7 +29,7 @@ def image_to_text(adress_string):
     # OCR keys
     url = 'https://api.ocr.space/parse/image'
     payload = {
-        'apikey': 'K89913284188957',
+        'apikey': 'MY-API-KEY',
         'language': 'jpn', # Set the language to Japanese
         'isOverlayRequired': False
     }
