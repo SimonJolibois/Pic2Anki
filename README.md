@@ -36,5 +36,6 @@ C:\Users\%USERNAME%\Pic2AnkiEnv\Scripts\activate
 python main.py
 ```
 *\*Adapt the path of main.py to where your Pic2Anki folder is*  
+
 4. Wait for the two output Excel spreadsheets "words.xlsx" and "verbs.xlsx"
 
