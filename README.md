@@ -23,8 +23,8 @@ C:\Users\%USERNAME%\Pic2AnkiEnv\Scripts\activate
 pip install -r requirements.txt
 ```
 *\*Adapt the path of main.py to where your Pic2Anki folder is* 
-4. On https://ocr.space/, create an account that will give you for free 500 requests pre month through an API key. 
 
+4. On https://ocr.space/, create an account that will give you for free 500 requests pre month through an API key. 
 5. In `main.py`, replace "MY-API-KEY" by your OCR space key.
 
 ### How to Use
