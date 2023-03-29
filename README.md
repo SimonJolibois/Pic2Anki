@@ -15,6 +15,7 @@ For now .bat suppose you are using conda
 Seems like the .bat files don't for some reasons. For now, here is the workflow:
 1. Git clone the repository
 ~~2. Run install.bat to create a virtual environnement install all required packages~~
+
 2. In a command prompt, run the following commands:
 ```
 pip install virtualenv
@@ -29,6 +30,7 @@ pip install -r requirements.txt
 ### How to Use
 1. Put images in the `Input` folder
 ~~2. Run main.bat~~
+
 2. In a command prompt, run the following commands:
 ```
 C:\Users\%USERNAME%\Pic2AnkiEnv\Scripts\activate
