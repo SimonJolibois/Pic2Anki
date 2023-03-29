@@ -4,7 +4,7 @@ When reading a japanese book to train, one may encounter words with unknown mean
 
 With [OCR Space](https://ocr.space/), pictures are analyzed to extract text. The [Nagisa](https://github.com/taishi-i/nagisa) package then segments the strings into individual words and give their POS tagging. Words are translated thanks to Google Translate API, while verbs' translations are scraped on [Takoboto](https://takoboto.jp/) to make sure even conjugated forms are recognized. Finally, all is stored in a Excel spreadsheet that can be directly in Anki to create a Deck. The original sentence in which each word was contained can also make a good example to clarify the definition.
 
-![Original Text](/assets/images/text.jpg)
+![Original Text](/assets/images/Capture d’écran 2023-03-29 164125.jpg)
 ![Words Excel](/assets/images/words.jpg)
 ![Verbs Excel]/assets/images/verbs.jpg)
 
