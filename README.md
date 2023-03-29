@@ -6,6 +6,7 @@ With [OCR Space](https://ocr.space/), pictures are analyzed to extract text. The
 
 ### Misc.:
 - The final Excel spreadsheet isn't curated. You need to manually remove all elements you don't want in the Deck.
+- For best results with OCR, crop images to remove all useless elements
 - The OCR of images are stored in individual .txt files to save on the 500 requests/month cap.
 - A analysis.txt file is created each time, containing data of all steps of the scripts for debugging purposes.
 - Translation steps on Google Translate and Takoboto may be a bit long (10 pages ~ 6-10min) as the services limit the request rate
