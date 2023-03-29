@@ -29,7 +29,7 @@ def image_to_text(adress_string):
     # OCR keys
     url = 'https://api.ocr.space/parse/image'
     payload = {
-        'apikey': 'MY-API-KEY',
+        'apikey': 'K89913284188957',
         'language': 'jpn', # Set the language to Japanese
         'isOverlayRequired': False
     }
@@ -212,9 +212,9 @@ if __name__ == '__main__':
     # OCR processing
     print("Processing the images...")
     text_or = ""
-    for filename in tqdm(sorted(os.listdir("test"),key=str.lower,reverse=True)):
+    for filename in tqdm(sorted(os.listdir("input"),key=str.lower,reverse=True)):
         if filename.endswith('.jpg'):
-            text_or = text_or.rstrip() + image_to_text(adress_string = 'test/'+filename).lstrip()
+            text_or = text_or.rstrip() + image_to_text(adress_string = "input/"+filename).lstrip()
     
     # Segmentation
     print("Segmentation...")
