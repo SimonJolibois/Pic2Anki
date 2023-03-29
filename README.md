@@ -13,7 +13,7 @@ For now .bat suppose you are using conda
 
 ## How to Install
 Seems like the .bat files don't for some reasons. For now, here is the workflow:
-1. Git clone the repository
+1. Git clone the repository  
 ~~2. Run install.bat to create a virtual environnement install all required packages~~
 
 2. In a command prompt, run the following commands:
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 4. In `main.py`, replace "MY-API-KEY" by your OCR space key.
 
 ### How to Use
-1. Put images in the `Input` folder
+1. Put images in the `Input` folder  
 ~~2. Run main.bat~~
 
 2. In a command prompt, run the following commands:
