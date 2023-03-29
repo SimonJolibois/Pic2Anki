@@ -6,7 +6,7 @@ With [OCR Space](https://ocr.space/), pictures are analyzed to extract text. The
 
 ![Original Text](/assets/images/Capture d’écran 2023-03-29 164125.jpg)
 ![Words Excel](/assets/images/words.jpg)
-![Verbs Excel]/assets/images/verbs.jpg)
+![Verbs Excel](/assets/images/verbs.jpg)
 
 ### Misc.:
 - The final Excel spreadsheet isn't curated. You need to manually remove all elements you don't want in the Deck.
