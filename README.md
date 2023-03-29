@@ -1,4 +1,4 @@
-# Pic2Excel
+# Pic2Anki
 Take pictures of Japanese text, and process everything in a Excel spreadsheet that can be used to create Anki decks.
 
 ### Packages and services employed:
