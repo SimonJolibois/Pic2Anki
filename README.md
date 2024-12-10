@@ -2,7 +2,7 @@
 ## What is Pic2Anki?
 When reading a japanese book to train, one may encounter words with unknown meaning and/or pronounciations. Usually one would write the furigana next to the kanjis and the definition somewhere on the page, but it ends up impacting the lisibility as a whole. Pic2Anki aims to solve this problem by moving the kanji learning phase ahead of the reading phase, importing all kanjis to an Excel spreadsheet that can be used to create an Anki deck to learn all problematic words.
 
-With [OCR Space](https://ocr.space/), pictures are analyzed to extract text. The [Nagisa](https://github.com/taishi-i/nagisa) package then segments the strings into individual words and give their POS tagging. Words are translated thanks to Google Translate API, while verbs' translations are scraped on [Takoboto](https://takoboto.jp/) to make sure even conjugated forms are recognized. Finally, all is stored in a Excel spreadsheet that can be directly in Anki to create a Deck. The original sentence in which each word was contained can also make a good example to clarify the definition.
+With PyTesseract, pictures are analyzed to extract text. The TinySegmenter package then segments the strings into individual words. Sentences are translated thanks to Google Translate API. Finally, all is stored in a Excel spreadsheet that can be directly in Anki to create a Deck. The original sentence in which each word was contained can also make a good example to clarify the definition. Words are tagged with a JLPT rating based on [this wordlist](https://github.com/elzup/jlpt-word-list).
 
 ![Original Text](/assets/images/text.jpg)
 ![Words Excel](/assets/images/words.jpg)
